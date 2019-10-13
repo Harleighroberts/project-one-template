@@ -1,6 +1,9 @@
 body{
-	background-image: url("../images/homepageimage.png");
-	background-size: cover;
+	background-image: url("../images/jg_camillle_n_0137.jpg");
+	background-repeat: no-repeat;
+  	background-size: contain
+}
+
 }
 a{
 	text-decoration: none;
@@ -18,12 +21,15 @@ nav ul{
 	background-color: white;
 	min-width: 500px;
 	text-align: center;
+	font-family: "nexabold";
+
 }
 
 header{
 	display: grid;
 	grid-template-columns: 40% 60%;
 }
+
  h1 img{
  	position:absolute;
     left:400px;
@@ -31,9 +37,16 @@ header{
     margin: 0px 15px 15px 0px;
     max-width: 60px;
  	max-height: 60px;
+ }
  	
+ h2{
+	font-family: "nexabold";
+	color: #8dc63f;
+	font-size: 50px;
 
  }
+
+
 
 nav li{ 
 	display: inline-block;
