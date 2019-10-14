@@ -31,8 +31,6 @@ header{
     margin: 0px 15px 15px 0px;
     max-width: 60px;
  	max-height: 60px;
- 	
-
  }
 
 nav li{ 
@@ -40,5 +38,77 @@ nav li{
 	margin-right: 20px;
 	margin-top: 40px;
 	padding-top: 20px;
+}
+
+.benefits-h2 body{
+	background-image: url("../images/jg_camillle_n_0137.jpg");
+	background-size: cover;
+}
+
+.energize-list ul{
+	text-decoration: none;
+	color: #000000;
+	font-family: "nexalight";
+	font-size: 14px;
+	margin-left: 50px;
 
 }
+
+.benefits-h2 {
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexalight";
+	font-size: 14px;
+	margin-top: 25px;
+	text-transform: uppercase;
+
+}
+
+.benefits-intro{
+	text-decoration: none;
+	color: #000000;
+	font-family: "nexalight";
+	font-size: 14px;
+	margin-left: 50px;
+}
+
+.benefits-h4{
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexabold";
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.benefits-h5{
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexabold";
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.benefits-h6{
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexabold";
+	font-size: 20px;
+	margin-left: 50px;
+}
+
+.benefits-logo{
+	position:absolute;
+    left:400px;
+    top:30px;
+    margin: 0px 15px 15px 0px;
+    max-width: 60px;
+ 	max-height: 60px;
+}
+
+.benefits-background{
+	background-image: url("../images/homepageimage.png");
+	background-size: cover;
+	max-width: 100%;
+	max-height: 100%;
+}
+
