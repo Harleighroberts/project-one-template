@@ -51,6 +51,8 @@ nav li{
 	font-family: "nexalight";
 	font-size: 14px;
 	list-style-type: circle
+	margin-top: 200px;
+	margin-left: -1000px;
 }
 
 .build-list ul{
@@ -59,6 +61,8 @@ nav li{
 	font-family: "nexalight";
 	font-size: 14px;
 	list-style-type: circle
+	margin-bottom: 100px;
+	margin-left: -550px;
 }
 
 .fight-list ul{
@@ -92,7 +96,7 @@ nav li{
   	margin-left: 100px;
   	position: absolute;
   	top: 8px;
-  	left: 16px;
+  	left: 55px;
 }
 
 .benefits-h4{
@@ -118,10 +122,9 @@ nav li{
 	margin-top: 150px;
   	margin-bottom: 250px;
   	margin-right: 150px;
-  	margin-left: 100px;
+  	margin-left: 400px;
   	position: absolute;
-  	bottom: 20px;
-  	left: 400px;
+  
 }
 
 .benefits-h6{
@@ -150,7 +153,7 @@ nav li{
 .benefits-background{
 	background-image: url("../images/homepageimage.png");
 	background-size: cover;
-	width: 100%;
+	max-width: 100%;
 	height: auto;
 	position: absolute;
 	z-index:-1;
@@ -225,7 +228,11 @@ nav li{
 	border-radius: 50%;
 
 }
-
+.one-circle-text{
+	position: relative;
+  	width: 300px;
+  	margin: auto;
+}
 .two-circle {
 	background: #FFFFF5;
 	width: 30px;
@@ -279,14 +286,66 @@ nav li{
 
  .shop-h3{
 	background-image: url("../images/sticksbox.jpg");
-	width: 100%;
-	height: auto;
+	width: 300px;
+	height: 300px;
 	position: absolute;
 	z-index:-1;
+	margin-top: 100px;
+	margin-left: 250px;
 }
 
 .shop-h4{
-	
+	text-decoration: none;
+	color:#C7C7BF;
+	font-family: "nexabold";
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 200px;
+	margin-left: 850px;
 }
+
+.shop-h5{
+	margin-top: 500px;
+	margin-left: 300px;
+}
+
+.shop-background{
+	background-color: #FFFFF5;
+	background-size: cover;
+}
+
+
+
+
+.shop-h6{
+	text-decoration: none;
+	color: #C7C7BF;
+	font-family: "nexabold";
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 200px;
+	margin-left: 850px;
+	border: 1px solid #8dc63f;
+}
+
+
+
+.flavor-labels{
+	text-decoration: none;
+	color: #80807A;
+	font-family: "nexalight";
+	font-size: 14px;
+	margin-top: 50px;
+	margin-left: 850px;
+}
+
+.ingredients{
+	text-decoration: none;
+	color: #80807A;
+	font-family: "nexalight";
+	font-size: 14px;
+	margin-top: 50px;
+	margin-left: 850px;
+}	
 
 
