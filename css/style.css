@@ -50,8 +50,23 @@ nav li{
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-left: 50px;
+	list-style-type: circle
+}
 
+.build-list ul{
+	text-decoration: none;
+	color: #000000;
+	font-family: "nexalight";
+	font-size: 14px;
+	list-style-type: circle
+}
+
+.fight-list ul{
+	text-decoration: none;
+	color: #000000;
+	font-family: "nexalight";
+	font-size: 14px;
+	list-style-type: circle
 }
 
 .benefits-h2 {
@@ -59,9 +74,11 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-top: 25px;
 	text-transform: uppercase;
-
+	position:absolute;
+    left:150px;
+    top:60px;
+    margin: 0px 15px 15px 0px;
 }
 
 .benefits-intro{
@@ -69,7 +86,13 @@ nav li{
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-left: 50px;
+	margin-top: 150px;
+  	margin-bottom: 500px;
+  	margin-right: 150px;
+  	margin-left: 100px;
+  	position: absolute;
+  	top: 8px;
+  	left: 16px;
 }
 
 .benefits-h4{
@@ -77,7 +100,14 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-left: 50px;
+	margin-top: 150px;
+  	margin-bottom: 250px;
+  	margin-right: 150px;
+  	margin-left: 100px;
+  	position: absolute;
+  	bottom: 20px;
+  	left: 16px;
+	
 }
 
 .benefits-h5{
@@ -85,7 +115,13 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-left: 50px;
+	margin-top: 150px;
+  	margin-bottom: 250px;
+  	margin-right: 150px;
+  	margin-left: 100px;
+  	position: absolute;
+  	bottom: 20px;
+  	left: 400px;
 }
 
 .benefits-h6{
@@ -93,13 +129,19 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-left: 50px;
+	margin-top: 150px;
+  	margin-bottom: 250px;
+  	margin-right: 150px;
+  	margin-left: 400px;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 16px;
 }
 
 .benefits-logo{
 	position:absolute;
-    left:400px;
-    top:30px;
+    left:-350px;
+    top:20px;
     margin: 0px 15px 15px 0px;
     max-width: 60px;
  	max-height: 60px;
@@ -108,7 +150,143 @@ nav li{
 .benefits-background{
 	background-image: url("../images/homepageimage.png");
 	background-size: cover;
-	max-width: 100%;
-	max-height: 100%;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index:-1;
 }
+
+
+.recipe-logo{
+	position:absolute;
+    left:-350px;
+    top:20px;
+    margin: 0px 15px 15px 0px;
+    max-width: 60px;
+ 	max-height: 60px;
+}
+
+.recipe-h2 {
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexalight";
+	font-size: 14px;
+	text-transform: uppercase;
+	position:absolute;
+    left:150px;
+    top:60px;
+    margin: 0px 15px 15px 0px;
+}
+
+.recipe-h3{
+	width: 50%;
+	height: 25%;
+	position: absolute;
+	z-index:-1;
+}
+
+
+.breakdown-logo{
+	position:absolute;
+    left:-350px;
+    top:20px;
+    margin: 0px 15px 15px 0px;
+    max-width: 60px;
+ 	max-height: 60px;
+}
+
+.breakdown-h2 {
+	text-decoration: none;
+	color: #FFFFF5;
+	font-family: "nexalight";
+	font-size: 14px;
+	text-transform: uppercase;
+	position:absolute;
+    left:150px;
+    top:60px;
+    margin: 0px 15px 15px 0px;
+  }
+
+  .breakdown-h3{
+	background-image: url("../images/matcha-2356774_1280.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index:-1;
+}
+
+.one-circle {
+	background: #FFFFF5;
+	width: 30px;
+	height: 30px;
+	margin-top: 300px;
+	margin-left: 150;
+	border-radius: 50%;
+
+}
+
+.two-circle {
+	background: #FFFFF5;
+	width: 30px;
+	height: 30px;
+	margin-top: 200px;
+	margin-left: 90;
+	border-radius: 50%;
+
+}
+
+.three-circle {
+	background: #FFFFF5;
+	width: 30px;
+	height: 30px;
+	margin-top: 270px;
+	margin-left: 285;
+	border-radius: 50%;
+
+}
+
+.four-circle {
+	background: #FFFFF5;
+	width: 30px;
+	height: 30px;
+	margin-top: 200px;
+	margin-left: 170;
+	border-radius: 50%;
+
+}
+
+.shop-logo{
+	position:absolute;
+    left:-350px;
+    top:20px;
+    margin: 0px 15px 15px 0px;
+    max-width: 60px;
+ 	max-height: 60px;
+}
+
+.shop-h2 {
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexalight";
+	font-size: 14px;
+	text-transform: uppercase;
+	position:absolute;
+    left:150px;
+    top:60px;
+    margin: 0px 15px 15px 0px;
+  }
+
+ .shop-h3{
+	background-image: url("../images/sticksbox.jpg");
+	width: 100%;
+	height: auto;
+	position: absolute;
+	z-index:-1;
+}
+
+.shop-h4{
+	
+}
+
 
