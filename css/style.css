@@ -311,7 +311,7 @@ nav li{
 
 .shop-background{
 	background-color: #FFFFF5;
-	background-size: cover;
+	
 }
 
 
@@ -335,8 +335,9 @@ nav li{
 	color: #80807A;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: 850px;
+	margin-bottom: 100px;
 }
 
 .ingredients{
