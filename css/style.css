@@ -1,6 +1,7 @@
-body{
+.home{
 	background-image: url("../images/homepageimage.png");
 	background-size: cover;
+	background-color: white;
 }
 a{
 	text-decoration: none;
@@ -51,8 +52,9 @@ nav li{
 	font-family: "nexalight";
 	font-size: 14px;
 	list-style-type: circle
-	margin-top: 200px;
+	margin-bottom: 300px;
 	margin-left: -1000px;
+	line-height: 20px;
 }
 
 .build-list ul{
@@ -181,13 +183,20 @@ nav li{
     margin: 0px 15px 15px 0px;
 }
 
-.recipe-h3{
-	width: 50%;
-	height: 25%;
-	position: absolute;
-	z-index:-1;
+.grid-1{
+	max-width: 20px;
+	max-height:	10px;
 }
 
+.grid-2{
+	max-width: 10px;
+	max-height:	10px;
+}
+
+.grid-3{
+	max-width: 30px;
+	max-height:	10px;
+}
 
 .breakdown-logo{
 	position:absolute;
@@ -228,6 +237,8 @@ nav li{
 	border-radius: 50%;
 
 }
+.one-link  {display: inline-block;}
+
 .one-circle-text{
 	position: relative;
   	width: 300px;
@@ -263,6 +274,15 @@ nav li{
 
 }
 
+.hover-dark {
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 .shop-logo{
 	position:absolute;
     left:-350px;
@@ -345,7 +365,7 @@ nav li{
 	color: #80807A;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-top: 50px;
+	margin-bottom: 100px;
 	margin-left: 850px;
 }	
 
