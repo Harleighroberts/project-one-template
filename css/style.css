@@ -2,6 +2,7 @@
 	background-image: url("../images/homepageimage.png");
 	background-size: cover;
 	background-color: white;
+	background-repeat: no-repeat;
 }
 a{
 	text-decoration: none;
@@ -51,10 +52,10 @@ nav li{
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	list-style-type: circle
-	margin-bottom: 300px;
+	margin-bottom: 0px;
 	margin-left: -1000px;
-	line-height: 20px;
+	line-height: 0%;
+	
 }
 
 .build-list ul{
@@ -62,9 +63,9 @@ nav li{
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	list-style-type: circle
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 	margin-left: -550px;
+	line-height: 0%;
 }
 
 .fight-list ul{
@@ -72,7 +73,8 @@ nav li{
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	list-style-type: circle
+	margin-bottom: 0px;
+
 }
 
 .benefits-h2 {
@@ -87,18 +89,20 @@ nav li{
     margin: 0px 15px 15px 0px;
 }
 
+
 .benefits-intro{
 	text-decoration: none;
 	color: #000000;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-top: 150px;
+	margin-top: 125px;
   	margin-bottom: 500px;
   	margin-right: 150px;
   	margin-left: 100px;
   	position: absolute;
   	top: 8px;
   	left: 55px;
+  	line-height: 20px;
 }
 
 .benefits-h4{
@@ -106,14 +110,8 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-top: 150px;
-  	margin-bottom: 250px;
-  	margin-right: 150px;
-  	margin-left: 100px;
-  	position: absolute;
-  	bottom: 20px;
-  	left: 16px;
-	
+	margin-top: 450px;
+  	margin-left: -425px;
 }
 
 .benefits-h5{
@@ -121,12 +119,7 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-top: 150px;
-  	margin-bottom: 250px;
-  	margin-right: 150px;
-  	margin-left: 400px;
-  	position: absolute;
-  
+	
 }
 
 .benefits-h6{
@@ -134,13 +127,9 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
-	margin-top: 150px;
   	margin-bottom: 250px;
-  	margin-right: 150px;
-  	margin-left: 400px;
-  	position: fixed;
-  	bottom: 20px;
-  	right: 16px;
+  	margin-left: 600px;
+ 
 }
 
 .benefits-logo{
@@ -155,10 +144,12 @@ nav li{
 .benefits-background{
 	background-image: url("../images/homepageimage.png");
 	background-size: cover;
+	background-repeat: no-repeat;
 	max-width: 100%;
-	height: auto;
-	position: absolute;
+	height: 100%;
+	background-position: right top;
 	z-index:-1;
+	margin-right: 200px;
 }
 
 
@@ -183,19 +174,12 @@ nav li{
     margin: 0px 15px 15px 0px;
 }
 
-.grid-1{
-	max-width: 20px;
-	max-height:	10px;
+.recipe-h5{
+	margin-top: 50px;
 }
 
-.grid-2{
-	max-width: 10px;
-	max-height:	10px;
-}
-
-.grid-3{
-	max-width: 30px;
-	max-height:	10px;
+.recipe-h4{
+	z-index: -1;
 }
 
 .breakdown-logo{
@@ -222,6 +206,7 @@ nav li{
   .breakdown-h3{
 	background-image: url("../images/matcha-2356774_1280.jpg");
 	background-size: cover;
+	background-repeat: no-repeat;
 	width: 100%;
 	height: auto;
 	position: absolute;
@@ -325,12 +310,13 @@ nav li{
 }
 
 .shop-h5{
-	margin-top: 500px;
-	margin-left: 300px;
+	margin-top: 350px;
+	margin-left: 270px;
+	z-index:-1px;
 }
 
 .shop-background{
-	background-color: #FFFFF5;
+	background-color: #FFFFFF;
 	
 }
 
@@ -339,9 +325,9 @@ nav li{
 
 .shop-h6{
 	text-decoration: none;
-	color: #C7C7BF;
+	color: #80807A;
 	font-family: "nexabold";
-	font-size: 20px;
+	font-size: 25px;
 	text-transform: uppercase;
 	margin-top: 200px;
 	margin-left: 850px;
@@ -355,18 +341,27 @@ nav li{
 	color: #80807A;
 	font-family: "nexalight";
 	font-size: 14px;
-	margin-top: 0px;
-	margin-left: 850px;
-	margin-bottom: 100px;
+	padding-left: 550px;
+	margin-top: -300px;
 }
 
 .ingredients{
 	text-decoration: none;
 	color: #80807A;
 	font-family: "nexalight";
-	font-size: 14px;
+	font-size: 12px;
 	margin-bottom: 100px;
 	margin-left: 850px;
+	line-height: 16px;
 }	
 
+.thankyou-h2{
+	text-decoration: none;
+	color: #8dc63f;
+	font-family: "nexalight";
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: -550px;
+	margin-top: 300px;
+}
 
