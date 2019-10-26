@@ -119,6 +119,7 @@ nav li{
 	color: #8dc63f;
 	font-family: "nexabold";
 	font-size: 20px;
+	margin-bottom: 200px;
 	
 }
 
@@ -164,7 +165,7 @@ nav li{
 
 .recipe-h2 {
 	text-decoration: none;
-	color: #8dc63f;
+	color: #FFFFFF;
 	font-family: "nexalight";
 	font-size: 14px;
 	text-transform: uppercase;
@@ -174,13 +175,17 @@ nav li{
     margin: 0px 15px 15px 0px;
 }
 
-.recipe-h5{
-	margin-top: 50px;
+.recipe-h3{
+	z-index: -1px;
+
 }
 
-.recipe-h4{
-	z-index: -1;
+.recipe-h5{
+	float: left;
+	margin-top: -300px;
+	margin-left: 66px;
 }
+
 
 .breakdown-logo{
 	position:absolute;
@@ -213,61 +218,121 @@ nav li{
 	z-index:-1;
 }
 
-.one-circle {
-	background: #FFFFF5;
-	width: 30px;
-	height: 30px;
-	margin-top: 300px;
-	margin-left: 150;
-	border-radius: 50%;
-
-}
-.one-link  {display: inline-block;}
-
-.one-circle-text{
-	position: relative;
-  	width: 300px;
-  	margin: auto;
-}
-.two-circle {
-	background: #FFFFF5;
-	width: 30px;
-	height: 30px;
-	margin-top: 200px;
-	margin-left: 90;
-	border-radius: 50%;
-
+.tooltip {
+  position: relative;
+  top:300px;
+  left: 100px;
+  font-family: "nexalight";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  border-bottom: none;
 }
 
-.three-circle {
-	background: #FFFFF5;
-	width: 30px;
-	height: 30px;
-	margin-top: 270px;
-	margin-left: 285;
-	border-radius: 50%;
-
+.tooltip .origintext {
+  visibility: hidden;
+  width: 450px;
+  background-color: black;
+  opacity: .75;
+  font-family: "nexalight";
+  text-transform: none;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 16px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  top: 100%;
+  left: -1%;
 }
 
-.four-circle {
-	background: #FFFFF5;
-	width: 30px;
-	height: 30px;
-	margin-top: 200px;
-	margin-left: 170;
-	border-radius: 50%;
-
+.tooltip:hover .origintext {
+  visibility: visible;
 }
 
-.hover-dark {
-	display: none;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.6);
-	position: absolute;
-	top: 0;
-	left: 0;
+
+.tooltip2 {
+  position: relative;
+  top:200px;
+  left: 470px;
+  font-family: "nexalight";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  border-bottom: none;
 }
+
+.tooltip2 .farmerstext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  opacity: .75;
+  font-family: "nexalight";
+  text-transform: none;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 16px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  top: 120%;
+  left: -1%;
+ 
+}
+
+.tooltip2:hover .farmerstext {
+  visibility: visible;
+}
+
+
+
+.tooltip3 {
+  position: relative;
+  bottom: 50px;
+  left: 470px;
+  font-family: "nexalight";
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  border-bottom: none;
+}
+
+.tooltip3 .producerstext {
+  visibility: hidden;
+  width: 300px;
+  background-color: black;
+  opacity: .75;
+  font-family: "nexalight";
+  text-transform: none;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 16px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  top: 120%;
+  left: -1%;
+ 
+}
+
+.tooltip3:hover .producerstext {
+  visibility: visible;
+}
+
+
+
 .shop-logo{
 	position:absolute;
     left:-350px;
@@ -327,22 +392,34 @@ nav li{
 	text-decoration: none;
 	color: #80807A;
 	font-family: "nexabold";
-	font-size: 25px;
+	font-size: 30px;
 	text-transform: uppercase;
-	margin-top: 200px;
-	margin-left: 850px;
-	border: 1px solid #8dc63f;
+	position: relative;
+	top: 200px;
+	left: 800px;
 }
 
 
 
-.flavor-labels{
-	text-decoration: none;
-	color: #80807A;
-	font-family: "nexalight";
-	font-size: 14px;
-	padding-left: 550px;
-	margin-top: -300px;
+.btn-group .button {
+  background-color: #C7C7BF; /* Green */
+  border: none;
+  color: white;
+  font-family: "nexalight";
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  left: 850px;
+
+}
+
+.btn-group .button:hover {
+  background-color: #8dc63f;
 }
 
 .ingredients{
@@ -350,9 +427,9 @@ nav li{
 	color: #80807A;
 	font-family: "nexalight";
 	font-size: 12px;
-	margin-bottom: 100px;
-	margin-left: 850px;
-	line-height: 16px;
+	position: relative;
+	top: 50px;
+	left: 850px;
 }	
 
 .thankyou-h2{
