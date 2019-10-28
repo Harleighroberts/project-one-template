@@ -7,7 +7,7 @@
 a{
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	margin-left: 50px;
 }
@@ -50,7 +50,7 @@ nav li{
 .energize-list{
 	text-decoration: none;
 	color: #000000;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 20px;
 	position: relative;
@@ -63,7 +63,7 @@ nav li{
 	text-decoration: none;
 	list-style-type: circle;
 	color: #000000;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	position: relative;
 	bottom:310px;
@@ -76,7 +76,7 @@ nav li{
 	text-decoration: none;
 	list-style-type: circle;
 	color: #000000;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	position: relative;
 	left: 700px;
@@ -88,7 +88,7 @@ nav li{
 .benefits-h2 {
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	position:absolute;
@@ -102,7 +102,7 @@ nav li{
 .benefits-intro{
 	text-decoration: none;
 	color: #000000;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	margin-top: 125px;
   	margin-bottom: 500px;
@@ -117,7 +117,7 @@ nav li{
 .benefits-h4{
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	position: relative;
 	top:500px;
@@ -127,7 +127,7 @@ nav li{
 .benefits-h5{
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	position: relative;
 	bottom: 300px;
@@ -138,7 +138,7 @@ nav li{
 .benefits-h6{
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
   	position:relative;
   	bottom: 300px;
@@ -175,7 +175,7 @@ nav li{
 .recipe-h2 {
 	text-decoration: none;
 	color: #FFFFFF;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	position:absolute;
@@ -208,7 +208,7 @@ nav li{
 .breakdown-h2 {
 	text-decoration: none;
 	color: #FFFFF5;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	position:absolute;
@@ -222,16 +222,16 @@ nav li{
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: auto;
-	position: absolute;
+	height: 100%;
+	position: relative;
 	z-index:-1;
 }
 
 .tooltip {
   position: relative;
-  top:300px;
-  left: 100px;
-  font-family: "nexalight";
+  top:200px;
+  left: 600px;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #ffffff;
@@ -241,10 +241,10 @@ nav li{
 
 .tooltip .origintext {
   visibility: hidden;
-  width: 450px;
+  width: 200px;
   background-color: black;
   opacity: .75;
-  font-family: "nexalight";
+  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   color: #fff;
   text-align: left;
@@ -255,7 +255,7 @@ nav li{
   
   /* Position the tooltip */
   position: absolute;
-  top: 100%;
+  top:3%;
   left: -1%;
 }
 
@@ -266,9 +266,9 @@ nav li{
 
 .tooltip2 {
   position: relative;
-  top:200px;
-  left: 470px;
-  font-family: "nexalight";
+  bottom: 700px;
+  left: 150px;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #ffffff;
@@ -281,7 +281,7 @@ nav li{
   width: 300px;
   background-color: black;
   opacity: .75;
-  font-family: "nexalight";
+  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   color: #fff;
   text-align: left;
@@ -306,9 +306,9 @@ nav li{
 .tooltip3 {
   position: relative;
   bottom: 20px;
-  top: 700px;
-  left: 200px;
-  font-family: "nexalight";
+  bottom: 350px;
+  left: -500px;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #ffffff;
@@ -321,7 +321,7 @@ nav li{
   width: 300px;
   background-color: black;
   opacity: .75;
-  font-family: "nexalight";
+  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   color: #fff;
   text-align: left;
@@ -332,8 +332,8 @@ nav li{
   
   /* Position the tooltip */
   position: absolute;
-  top: -100%;
-  left: 25%;
+  top: 110%;
+  left: -1%;
  
 }
 
@@ -345,10 +345,9 @@ nav li{
 
 .tooltip4 {
   position: relative;
-  bottom: 20px;
-  top: 510px;
-  left: 320px;
-  font-family: "nexalight";
+  bottom: 410px;
+  left: 720px;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   color: #ffffff;
@@ -361,7 +360,7 @@ nav li{
   width: 300px;
   background-color: black;
   opacity: .75;
-  font-family: "nexalight";
+  font-family: 'Montserrat', sans-serif;
   text-transform: none;
   color: #fff;
   text-align: left;
@@ -395,7 +394,7 @@ nav li{
 .shop-h2 {
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	position:absolute;
@@ -417,7 +416,7 @@ nav li{
 .shop-h4{
 	text-decoration: none;
 	color:#C7C7BF;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	text-transform: uppercase;
 	margin-top: 200px;
@@ -441,7 +440,7 @@ nav li{
 .shop-h6{
 	text-decoration: none;
 	color: #80807A;
-	font-family: "nexabold";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	text-transform: uppercase;
 	position: relative;
@@ -455,7 +454,7 @@ nav li{
   background-color: #C7C7BF; /* Green */
   border: none;
   color: white;
-  font-family: "nexalight";
+  font-family: 'Montserrat', sans-serif;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -475,7 +474,7 @@ nav li{
 .ingredients{
 	text-decoration: none;
 	color: #80807A;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	font-size: 12px;
 	position: relative;
 	top: 50px;
@@ -485,7 +484,7 @@ nav li{
 .thankyou-h2{
 	text-decoration: none;
 	color: #8dc63f;
-	font-family: "nexalight";
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	margin-left: -550px;
